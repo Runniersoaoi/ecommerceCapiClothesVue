@@ -6,14 +6,14 @@
         Brand meets Performance
       </h1>
       <p class="text-[#787878] text-lg font-mono">
-        Manage Shopify collections <br />
+        Manage your products <br />
         like it's your digital flagship <br />
         store
       </p>
       <RouterLink
-        to=""
+        to="/register"
         class="min-h-[86px] w-[140px] bg-[#FF5314] content-center text-center font-semibold rounded-3xl"
-        >Start for Free</RouterLink
+        >Sign up</RouterLink
       >
     </div>
     <div
@@ -52,12 +52,12 @@
     <div class="bg-[#212121] rounded-[50px] w-[43%] flex flex-col gap-6 p-10 justify-center">
       <AdministrationLogo class="w-[60px] pb-2" />
       <h1 class="text-[#FBFBFB] text-7xl font-bold tracking-tighter">
-        Strategic <br />
-        Merchandising
+        Administrative <br />
+        Panel
       </h1>
       <p class="text-[#787878] text-lg font-mono">
-        Set sorting rules for all your collection pages at once. Boost products up, or bury them at
-        the bottom. Rules can be set based on collections, tags, and data.
+        This project has a user who has the ability to manage products, create collections, and
+        alter stock, sizes and categories
       </p>
     </div>
     <div
@@ -81,14 +81,16 @@
     <div class="flex flex-row gap-8 button-contact">
       <div class="rounded-3xl h-[90px] flex justify-center items-center">
         <RouterLink
+          to="/register"
           class="h-full w-[176px] bg-[#181818] content-center text-center font-semibold rounded-3xl text-white"
-          >Try for Free
+          >Sign up
         </RouterLink>
       </div>
       <div class="rounded-3xl h-[90px] flex justify-center items-center">
         <RouterLink
+          to="/products"
           class="min-h-[86px] w-[176px] bg-[#FF5314] content-center text-center font-semibold rounded-3xl border-2 border-[#181818] text-[#181818]"
-          >Book a Demo
+          >Show products
         </RouterLink>
       </div>
     </div>
