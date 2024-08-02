@@ -11,7 +11,7 @@
           type="text"
           id="name"
           name="name"
-          class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500 mb-2"
+          class="w-full border border-gray-300 rounded-md py-2 px-3 outline-[#ff5314]"
           autocomplete="off"
           placeholder="Full name"
         />
