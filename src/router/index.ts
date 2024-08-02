@@ -31,6 +31,12 @@ const router = createRouter({
           props: true,
           component: () => import('@/module/shop/views/ProductCartView.vue'),
         },
+        {
+          path: '/contact',
+          name: 'contact',
+          props: true,
+          component: () => import('@/module/shop/views/ProductContact.vue'),
+        },
       ],
     },
     authRoutes,
