@@ -1,15 +1,17 @@
 <template>
-  <section :class="`w-[78%] px-1 flex flex-row gap-4 h-[85vh] pb-4 mt-32 `">
+  <section
+    :class="`lg:w-[78%] lg:px-1 flex lg:flex-row gap-6 lg:h-[85vh] lg:pb-4 mt-32 flex-col-reverse bg-[#212121] lg:bg-transparent lg:py-0 w-[90%] rounded-[50px] px-12 py-20`"
+  >
     <div
-      class="bg-[#fbfbfb] rounded-[50px] w-[43%] flex flex-col gap-6 p-10 justify-center shadow-lg shadow-[#00000023]"
+      class="lg:bg-[#fbfbfb] lg:rounded-[50px] lg:w-[43%] flex flex-col lg:gap-6 gap-4 lg:p-10 justify-center lg:shadow-lg lg:shadow-[#00000023]"
     >
       <img
         :src="productStore.productShop?.images[0]"
-        class="h-auto w-[83%] mx-auto rounded-[24px] shadow-lg shadow-[#00000023]"
+        class="h-auto lg:w-[83%] mx-auto rounded-[24px] shadow-lg shadow-[#00000023]"
         alt=""
       />
     </div>
-    <div class="bg-[#212121] rounded-[50px] w-[57%] content-center p-10">
+    <div class="lg:bg-[#212121] lg:rounded-[50px] lg:w-[57%] content-center lg:p-10">
       <ContentLogo class="w-[60px] pb-6" />
       <h1 class="text-[#FBFBFB] text-5xl font-bold tracking-tighter pb-3">
         {{ productStore.productShop?.title }}

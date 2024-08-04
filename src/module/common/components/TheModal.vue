@@ -5,7 +5,7 @@
     @click="changeModalState"
   >
     <div
-      class="absolute right-0 top-0 h-full w-3/12 rounded-2xl border bg-slate-100 px-10"
+      class="absolute right-0 top-0 h-full lg:w-3/12 md:w-6/12 w-10/12 rounded-2xl border bg-slate-100 px-10"
       @click.stop
     >
       <div class="flex flex-col items-center justify-center h-full gap-2">

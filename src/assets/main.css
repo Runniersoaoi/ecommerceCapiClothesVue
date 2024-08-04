@@ -5,7 +5,15 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#f3f3f3] font-popins;
+  background-color: #f3f3f3;
+}
+
+html {
+  @apply scrollbar-thin scrollbar-track-white scrollbar-thumb-[#212121] scroll-smooth;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 .bg-gradient {

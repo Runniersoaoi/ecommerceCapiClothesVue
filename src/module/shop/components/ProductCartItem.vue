@@ -1,5 +1,7 @@
 <template>
-  <div class="flex gap-5 items-center border p-5 rounded-lg bg-white justify-between">
+  <div
+    class="flex gap-5 items-center border p-5 rounded-lg bg-white justify-between flex-col md:flex-row"
+  >
     <div><img :src="product.images[0]" alt="" class="h-16" /></div>
     <div>
       <h4 class="w-[300px]">{{ product.title }}</h4>

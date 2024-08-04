@@ -1,5 +1,7 @@
 <template>
-  <section class="w-[78%] px-1 grid grid-cols-5 gap-4 h-[85vh] pb-4 mt-36">
+  <section
+    class="lg:w-[78%] px-1 grid gap-4 mt-36 lg:min-w-[900px] 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 w-[94%]"
+  >
     <ProductCard
       v-for="product in productStore.productsShop"
       :key="product.id"
@@ -8,7 +10,7 @@
       :is-swiper="true"
     />
   </section>
-  <div class="w-full flex items-center justify-center mt-14 mb-10">
+  <div class="w-full flex items-center justify-center mt-8 mb-10">
     <RouterLink class="link-navProducts" :to="{ name: 'products', query: { page: 1 } }"
       >1</RouterLink
     >

@@ -1,6 +1,8 @@
 <template>
-  <section class="w-[78%] px-1 flex flex-row gap-4 h-full">
-    <div class="bg-white rounded-2xl w-[50%] flex flex-col p-10 justify-center items-center">
+  <section
+    class="lg:w-[78%] px-1 flex lg:flex-row gap-4 lg:h-full lg:min-w-[900px] flex-col w-[90%]"
+  >
+    <div class="bg-white rounded-2xl lg:w-[50%] flex flex-col p-10 justify-center items-center">
       <h1 class="text-4xl font-black pb-1">Register</h1>
       <p class="font-mono pb-4">Enter your email and password</p>
       <form @submit.prevent="onRegister">
@@ -61,13 +63,13 @@
       </div>
     </div>
     <div
-      class="bg-gradient rounded-2xl w-[50%] content-center text-center shadow-lg shadow-[#00000023]"
+      class="bg-gradient rounded-2xl lg:w-[50%] content-center text-center shadow-lg shadow-[#00000023] lg:p-0 p-10"
     >
       <div class="flex flex-col">
         <IconLogoWhite class="h-10" />
         <h2 class="font-mono text-2xl text-white pb-10">Capilothes</h2>
         <div class="text-white w-full flex flex-col items-center gap-4">
-          <div class="flex max-w-[430px] items-center gap-4">
+          <div class="flex max-w-[430px] w-3/4 items-center gap-4">
             <div class="bg-[#212121] rounded-md p-1">
               <EcommerceLogo class="h-10" color="#ffffff" />
             </div>
@@ -78,7 +80,7 @@
               </p>
             </div>
           </div>
-          <div class="flex max-w-[430px] items-center gap-4">
+          <div class="flex max-w-[430px] w-3/4 items-center gap-4">
             <div class="bg-[#212121] rounded-md p-1">
               <MessagingIconTop class="h-10 inline" />
             </div>

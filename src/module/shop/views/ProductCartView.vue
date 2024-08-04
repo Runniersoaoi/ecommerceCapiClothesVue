@@ -1,6 +1,8 @@
 <template>
-  <section class="w-[78%] px-1 flex flex-row gap-4 pb-4 mt-32 min-h-[85vh]">
-    <div class="w-[70%] flex flex-col gap-3">
+  <section
+    class="lg:w-[78%] lg:px-1 flex lg:flex-row gap-4 lg:pb-4 mt-32 lg:min-h-[85vh] flex-col mb-4 lg:min-w-[900px] w-[90%]"
+  >
+    <div class="lg:w-[70%] flex flex-col gap-3 w-full">
       <ProductCartItem
         v-for="product in productStore.productCar"
         :key="product.id"
@@ -8,7 +10,7 @@
         @updateAmountAccumulated="updateTotal"
       />
     </div>
-    <div class="bg-[#fbfbfb] rounded-lg w-[30%] shadow-lg shadow-[#00000023] p-4 h-1/4">
+    <div class="bg-[#fbfbfb] rounded-lg lg:w-[30%] w-full shadow-lg shadow-[#00000023] p-4 h-1/4">
       <h3 class="text-xl border-b-2 pb-2 mb-4">Purchase summary</h3>
       <div class="pb-1 flex justify-between">
         <div>

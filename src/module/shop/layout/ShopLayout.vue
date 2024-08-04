@@ -1,12 +1,12 @@
 <template>
-  <div class="h-screen">
+  <div class="h-screen w-auto">
     <header class="w-full justify-center flex pt-8 fixed"><NavBar /></header>
     <div class="w-full pt-4 flex flex-col items-center">
       <RouterView />
     </div>
     <div class="w-full flex justify-center">
       <section
-        class="w-[78%] px-1 flex flex-col gap-4 bg-[#181818] rounded-[50px] items-center justify-center mb-5"
+        class="lg:w-[78%] lg:px-1 flex flex-col gap-4 bg-[#181818] rounded-[50px] items-center justify-center mb-5 lg:min-w-[900px] w-[94%]"
       >
         <div class="flex items-center gap-3 h-full flex-col p-10">
           <div class="flex items-center gap-4 pb-5">
@@ -14,7 +14,7 @@
               >Capilothes</span
             >
           </div>
-          <div class="flex gap-8">
+          <div class="flex gap-8 sm:flex-row flex-col">
             <div
               class="flex w-[280px] h-[80px] items-center justify-center gap-4 bg-[#212121] border-2 border-[#353535] rounded-[24px]"
             >

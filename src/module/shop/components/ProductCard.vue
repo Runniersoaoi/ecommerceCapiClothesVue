@@ -4,8 +4,8 @@
       <article
         class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 min-h-[410px] max-h-[410px]"
       >
-        <div class="flex items-end overflow-hidden rounded-xl">
-          <img :src="product.images[0]" alt="" class="h-[250px] object-cover" />
+        <div class="flex items-end overflow-hidden rounded-xl justify-center lg:h-auto h-[250px]">
+          <img :src="product.images[0]" alt="" class="h-[250px] w-full object-cover rounded-xl" />
         </div>
 
         <div class="mt-1 p-2 flex flex-col h-full justify-between min-h-[132px]">
